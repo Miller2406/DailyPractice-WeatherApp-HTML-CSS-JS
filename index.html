@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather App</title>
+    <link rel="stylesheet" href="syle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter your cicty" name="query" id="city-input">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <h1>City name</h1>
+            <h2 class="weather-name">Partly cloudy</h2>
+            <i class="fa-solid fa-cloud-bolt"></i>
+            <h2 class="weather-temp"><span class="temp">20</span>°C</h2>
+        </div>
+        <div class="details">
+            <div class="details-l">
+                <div class="details-box">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>Humidity <span class="Humidity">60</span>%</span>
+                </div>
+                <div class="details-box">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>Wind <span class="wind">6</span> km/hr</span>
+                </div>
+            </div>
+            <div class="details-r">
+                <div class="details-box">
+                    <i class="fa-solid fa-umbrella"></i>
+                    <span>Rain <span class="rain">60</span>%</span>
+                </div>
+                <div class="details-box">
+                    <i class="fa-solid fa-glasses"></i>
+                    <span>UV index <span class="uvi">60%</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Practices make perfect No copyright 2023&copy;</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

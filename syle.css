@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.card {
+    width: 80%;
+    max-width: 540px;
+    background-image: url(https://images.unsplash.com/photo-1469365556835-3da3db4c253b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(135deg, #00feba, #5b548a); */
+    color: #fff;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    flex: 1;
+    background-color: rgba(225, 225, 225, 0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    padding: 10px 25px;
+    height: 60px;
+    margin-right: 16px;
+    font-size: 18px;
+    color: #555;
+}
+
+.search input:focus {
+    border: 1px solid rgba(96, 95, 95, 0.484);
+}
+
+.search input:hover {
+    border: 1px solid rgba(96, 95, 95, 0.484);
+    transform: scale(1.005);
+    transition: all .3s;
+}
+
+.search button {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button i {
+    font-size: 18px;
+}
+
+.search button:hover {
+    background: black;
+    color: white;
+    transition: all .7s;
+}
+
+.weather {
+    background-color: #22222222;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    margin: 25px auto 0;
+    padding: 20px 15px 0;
+}
+
+.weather h1 {
+    font-size: 3em;
+}
+
+.weather .weather-name {
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+.weather i {
+    font-size: 5em;
+    margin-top: 20px;
+}
+
+.weather .weather-temp {
+    font-size: 4em;
+    padding-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    background-color: #22222222;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 0;
+}
+
+.details .details-r,
+.details .details-l {
+    width: 50%;
+    text-align: start;
+    padding: 0 20px;
+}
+
+.details .details-box {
+    margin-top: 5px;
+}
+
+.details i {
+    margin-right: 10px;
+    width: 20px;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    transform: translateY(-24px);
+    font-size: .7em;
+}
