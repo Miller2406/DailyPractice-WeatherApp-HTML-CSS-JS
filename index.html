@@ -7,7 +7,6 @@
     <title>The Weather App</title>
     <link rel="stylesheet" href="syle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
 </head>
 
 <body>
@@ -17,9 +16,9 @@
             <button><i class="fa fa-search"></i></button>
         </form>
         <div class="weather">
-            <h1>City name</h1>
+            <h1 id="city-name">City name</h1>
             <h2 class="weather-name">Partly cloudy</h2>
-            <i class="fa-solid fa-cloud-bolt"></i>
+            <img id="weather-icon" src="https://openweathermap.org/img/wn/11d@2x.png">
             <h2 class="weather-temp"><span class="temp">20</span>°C</h2>
         </div>
         <div class="details">
@@ -35,12 +34,12 @@
             </div>
             <div class="details-r">
                 <div class="details-box">
-                    <i class="fa-solid fa-umbrella"></i>
-                    <span>Rain <span class="rain">60</span>%</span>
+                    <i class="fa-solid fa-person-rays"></i>
+                    <span>Feels like <span class="feels-like">60</span>°C</span>
                 </div>
                 <div class="details-box">
-                    <i class="fa-solid fa-glasses"></i>
-                    <span>UV index <span class="uvi">60%</span></span>
+                    <i class="fa-solid fa-clock"></i>
+                    <span class="time"></span>
                 </div>
             </div>
         </div>

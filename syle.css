@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    transition: all 1s;
 }
 
 body {
@@ -17,10 +18,8 @@ body {
 .card {
     width: 80%;
     max-width: 540px;
-    background-image: url(https://images.unsplash.com/photo-1469365556835-3da3db4c253b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient(135deg, #00feba, #5b548a); */
     color: #fff;
     margin: 10px auto 0;
     border-radius: 20px;
@@ -44,7 +43,7 @@ body {
     height: 60px;
     margin-right: 16px;
     font-size: 18px;
-    color: #555;
+    color: #353535;
 }
 
 .search input:focus {
@@ -64,6 +63,7 @@ body {
     width: 60px;
     height: 60px;
     cursor: pointer;
+    opacity: .6;
 }
 
 .search button i {
@@ -77,30 +77,29 @@ body {
 }
 
 .weather {
-    background-color: #22222222;
+    background-color: #22222250;
     backdrop-filter: blur(5px);
     border-radius: 30px;
     margin: 25px auto 0;
-    padding: 20px 15px 0;
+    padding: 30px 0;
+    overflow: hidden;
 }
 
 .weather h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .weather .weather-name {
     font-size: 1.4em;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-.weather i {
-    font-size: 5em;
-    margin-top: 20px;
+.weather img {
+    width: 120px;
 }
 
 .weather .weather-temp {
     font-size: 4em;
-    padding-bottom: 20px;
 }
 
 .details {
